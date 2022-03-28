@@ -28,23 +28,26 @@
   -webkit-text-stroke-color: #000;
 }
 .modal {
-position: fixed;
-top: 518px;
-right: 453px;
-bottom: 64px;
-left: 567px;
-font-family: Arial, Helvetica, sans-serif;
-background: rgba(0,0,0,0.8);
-color: #fff;
-border-radius: 15px;
-z-index: 99999;
-opacity:0;
--webkit-transition: opacity 400ms ease-in;
--moz-transition: opacity 400ms ease-in;
-transition: opacity 400ms ease-in;
-pointer-events: none;
-overflow-y: auto;
+  position: fixed;
+  top: 590px;
+  right: 683px;
+  bottom: 135px;
+  left: 650px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  background: rgba(0,0,0,0.8);
+  color: rgb(255, 255, 255);
+  border-radius: 15px;
+  z-index: 99999;
+  opacity: 0;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  pointer-events: none;
+  overflow-y: auto;
 }
+
+
 
 .modal:target {
 opacity: 1;
@@ -75,10 +78,10 @@ top: -1px;
 text-align: center;
 line-height: 30px;
 margin-top: 5px;
-background: #ffffff;
+background: #ffffff00;
 border-radius: 50%;
 font-size: 16px;
-color: #000000;
+color: #ffffff;
 }
 
 .glaz{
