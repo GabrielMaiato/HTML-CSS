@@ -1,8 +1,9 @@
+*/ Dimensão da página */
 *{
   margin: 0;
   padding: 0;
 }
-
+*/ Imagem de fundo da página*/
 .capa{
   width: 700;
   height: 400;
@@ -11,7 +12,7 @@
   position: fixed;
   
 }
-
+*/ Texto principal */
 .titulo{
   color: rgb(175, 189, 214);
   -webkit-text-stroke-width: 1px;
@@ -20,6 +21,7 @@
   text-shadow: 0px 0px 20px rgb(255, 209, 6);
   
 }
+*/ Texto informativo*/
 .desc{
   color: rgb(255, 255, 255);
   width: 700px;
@@ -27,6 +29,7 @@
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #000;
 }
+*/ Caixa de informações*/
 .modal {
   position: fixed;
   top: 590px;
@@ -69,7 +72,7 @@ div.C {
 text-align: left;
 
 }
-
+*/ Botão de fechar caixa de informações */
 .fechar {
 position: absolute;
 width: 30px;
@@ -83,7 +86,7 @@ border-radius: 50%;
 font-size: 16px;
 color: #ffffff;
 }
-
+*/ Operador*/
 .glaz{
 width: 90px;
 height: 90px;
@@ -97,6 +100,7 @@ right: 0;
 padding: 0px;
 
 }
+*/ Operador*/
 .ash{
 width: 50px;
 height: 50px;
@@ -109,6 +113,7 @@ right: 0;
 padding: 0px;
 
 }
+*/ Operador*/
 .montagne{
 width: 90px;
 height: 90px;
@@ -121,6 +126,7 @@ right: 0;
 padding: 0px;
 
 }
+*/ Operador*/
 .kapkan{
 width: 50px;
 height: 50px;
@@ -132,6 +138,7 @@ left: 770px;
 right: 0;
 padding: 0px;
 }
+*/ Operador*/
 .sledge{
 width: 60px;
 height: 60px;
@@ -143,6 +150,7 @@ left: 690px;
 right: 0;
 padding: 0px;
 }
+*/ Operador*/
 .pulse{
 width: 70px;
 height: 70px;
@@ -154,6 +162,7 @@ left: 1216px;
 right: 0;
 padding: 0px;
 }
+*/ Operador*/
 .iq{
 width: 75px;
 height: 75px;
@@ -165,6 +174,7 @@ left: 589px;
 right: 0;
 padding: 0px;
 }
+*/ Operador*/
 .bandit{
 width: 50px;
 height: 50px;
